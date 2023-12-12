@@ -10,245 +10,272 @@
 body {
   background-color: #ddd;
 }
+
+.isi-header {
+  width: 100%;
+  height: 200px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  padding: 50px;
+  background-image: url("./images/senja.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
 nav {
-    background-color: #000;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    width: 100%;
-    color: #f4ce14;
-    position: sticky;
-    top: 0;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #f4ce14;
-  }
-  
-  nav p {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
-  }
-  
-  nav p:hover {
-    background-color: #f4ce14;
-  }
-  
-  nav p a:hover {
-    color: #000;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 10px;
-    height: 70px;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
-  nav ul li:hover {
-    background-color: #f4ce14;
-    transition: 0.5s;
-  }
-  
-  nav ul li a:hover {
-    color: #000;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #f4ce14;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
-  
+  background-color: #000;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  color: #f4ce14;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f4ce14;
+}
+
+nav p {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+nav p:hover {
+  background-color: #f4ce14;
+}
+
+nav p a:hover {
+  color: #000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  height: 70px;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li:hover {
+  background-color: #f4ce14;
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f4ce14;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  flex: 0 0 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+aside .trending1 {
+  height: 600px;
+}
+
+aside .trending1 img {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+aside .trending1 iframe {
+  border-radius: 10px;
+}
+
+aside .trending2 {
+  margin-top: 40%;
+}
+
+aside .trending2 p {
+  background-color: #f4ce14;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+aside .trending2 #tr2 {
+  background-color: #000;
+  color: #f4f4f4;
+}
+
+aside .trending3 {
+  margin-top: 40px;
+}
+
+aside .trending3 .kotak-t3 {
+  width: 200px;
+  background-color: #f4ce14;
+  padding: 10px;
+  border-radius: 20px;
+  height: 300px;
+  overflow: auto;
+}
+
+.content {
+  flex: 1;
+  padding: 5px;
+  background-color: #ddd;
+  margin: 20px 20px;
+}
+
+.konten1 {
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.konten2,
+.konten3 {
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.konten2 .kartu2 {
+  padding-right: 30px;
+}
+
+.konten2 .kartu2 .card {
+  width: 100%;
+}
+
+.konten3 input,
+select {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.konten3 input {
+  padding-left: 20px;
+}
+
+.konten3 select {
+  padding-left: 20px;
+}
+
+.konten3 button {
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #f4ce14;
+}
+
+/* Penyesuaian untuk meletakkan sidebar di sebelah kanan */
+.container {
+  flex-direction: row-reverse;
+}
+
+aside {
+  order: 1;
+}
+.content {
+  order: 2;
+}
+
+.kartu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu .card:hover{
+  border: 2px solid #f4ce14;
+}
+
+.card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
 
 .card-content {
-    padding: 20px;
-  }
-  
-  .card-content h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .card-content p {
-    color: #333;
-  }
+  padding: 20px;
+}
 
-  .container {
-    display: flex;
-  }
-  
-  aside {
-    flex: 0 0 200px;
-    background-color: #f4f4f4;
-    padding: 20px;
-    margin-top: 25px;
-  }
-  
-  aside .trending1 {
-    height: 600px;
-  }
-  
-  aside .trending1 img {
-    width: 200px;
-    height: 250px;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-  
-  aside .trending1 iframe {
-    border-radius: 10px;
-  }
-  
-  aside .trending2 {
-    margin-top: 40%;
-  }
-  
-  aside .trending2 p {
-    background-color: #f4ce14;
-    height: 40px;
-    display: flex;
-    align-items: center;
-  }
-  
-  aside .trending2 #tr2 {
-    background-color: #000;
-    color: #f4f4f4;
-  }
-  
-  aside .trending3 {
-    margin-top: 40px;
-  }
-  
-  aside .trending3 .kotak-t3 {
-    width: 200px;
-    background-color: #f4ce14;
-    padding: 10px;
-    border-radius: 20px;
-    height: 300px;
-    overflow: auto;
-  }
-  
-  .content {
-    flex: 1;
-    padding: 5px;
-    background-color: #ddd;
-    margin: 20px 20px;
-  }
-  
-  .konten1 {
-    border-radius: 20px;
-    background-color: #fff;
-    padding: 20px;
-  }
-  
-  .konten2,
-  .konten3 {
-    border-radius: 20px;
-    background-color: #fff;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  .konten2 .kartu2 {
-    padding-right: 30px;
-  }
-  
-  .konten2 .kartu2 .card {
-    width: 100%;
-  }
-  
-  .konten3 input,
-  select {
-    width: 100%;
-    height: 40px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-  }
-  
-  .konten3 input {
-    padding-left: 20px;
-  }
-  
-  .konten3 select {
-    padding-left: 20px;
-  }
-  
-  .konten3 button {
-    width: 100px;
-    height: 40px;
-    background-color: green;
-    border: none;
-    color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #000;
-    color: #f4ce14;
-  }
-  
-  /* Penyesuaian untuk meletakkan sidebar di sebelah kanan */
-  .container {
-    flex-direction: row-reverse;
-  }
-  
-  aside {
-    order: 1;
-  }
-  .content {
-    order: 2;
-  }
-  
-  .kartu {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .kartu .card:hover{
-    border: 2px solid #f4ce14;
-  }  
+.card-content h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  color: #333;
+}
