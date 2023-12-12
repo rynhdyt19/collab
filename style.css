@@ -100,3 +100,18 @@ nav {
   .dropdown-content a:hover {
     background-color: #f1f1f1;
   }
+  
+
+.card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    color: #333;
+  }
+  
