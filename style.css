@@ -114,4 +114,141 @@ nav {
   .card-content p {
     color: #333;
   }
+
+  .container {
+    display: flex;
+  }
   
+  aside {
+    flex: 0 0 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 25px;
+  }
+  
+  aside .trending1 {
+    height: 600px;
+  }
+  
+  aside .trending1 img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  aside .trending1 iframe {
+    border-radius: 10px;
+  }
+  
+  aside .trending2 {
+    margin-top: 40%;
+  }
+  
+  aside .trending2 p {
+    background-color: #f4ce14;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  aside .trending2 #tr2 {
+    background-color: #000;
+    color: #f4f4f4;
+  }
+  
+  aside .trending3 {
+    margin-top: 40px;
+  }
+  
+  aside .trending3 .kotak-t3 {
+    width: 200px;
+    background-color: #f4ce14;
+    padding: 10px;
+    border-radius: 20px;
+    height: 300px;
+    overflow: auto;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 5px;
+    background-color: #ddd;
+    margin: 20px 20px;
+  }
+  
+  .konten1 {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .konten2,
+  .konten3 {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .konten2 .kartu2 {
+    padding-right: 30px;
+  }
+  
+  .konten2 .kartu2 .card {
+    width: 100%;
+  }
+  
+  .konten3 input,
+  select {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .konten3 input {
+    padding-left: 20px;
+  }
+  
+  .konten3 select {
+    padding-left: 20px;
+  }
+  
+  .konten3 button {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #f4ce14;
+  }
+  
+  /* Penyesuaian untuk meletakkan sidebar di sebelah kanan */
+  .container {
+    flex-direction: row-reverse;
+  }
+  
+  aside {
+    order: 1;
+  }
+  .content {
+    order: 2;
+  }
+  
+  .kartu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .kartu .card:hover{
+    border: 2px solid #f4ce14;
+  }  
